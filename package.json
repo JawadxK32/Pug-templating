@@ -1,0 +1,15 @@
+{
+  "name": "cps630 lab5",
+  "version": "1.0.0",
+  "description": "Showcase Website Using Node.js/Express Http-Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jawad Khudadad",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2",
+    "pug": "^2.0.0-beta11"
+  }
+}

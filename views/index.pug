@@ -1,0 +1,28 @@
+extends parent
+
+include article
+
+block content
+  h2 Pug Templating - Jawad Khudadad
+  p.lead Showcase Website Using Node.js/Express Http-Server 
+  br
+  hr
+  h3 Some Interesting facts about Web Application Development
+  .row
+    .col-sm-12
+      hr
+      +stories('-> Web applications run "inside" a browser; no complex installation is needed.')
+
+      br
+
+      +stories('-> Web applications require very little disk space (or computing power) on the client. All the client does is display the data.')
+
+
+      br
+
+      +article('-> In many cases, the data is stored remotely too. As with other cloud computing, this can allow easy communication and cooperation. This website is made using Node.js/express, Node.js is a very powerful JavaScript-based framework/platform built on Google Chromes JavaScript V8 Engine.', 'Node.js/express', 'nodejs.png')
+
+
+      br
+
+	  
